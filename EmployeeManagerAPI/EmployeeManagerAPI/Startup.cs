@@ -56,5 +56,9 @@ namespace EmployeeManagerAPI
                 endpoints.MapControllers();
             });
         }
+        #region cmd
+        //cmd
+        //    Scaffold-DbContext "Data Source= LAPTOP-P6K68FUP\SQLEXPRESS;Initial Catalog=EMPLOYEE_MANAGER;User ID=sa;Password= 123456" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF -f -UseDatabaseNames
+        #endregion
     }
 }
